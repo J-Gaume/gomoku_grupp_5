@@ -13,7 +13,8 @@
 3. Vardera spelare placerar en pjäs under sin omgång
 4. Man får ej placera en pjäs på upptagen ruta.
 5. Fem pjäser i rad, diagonellt/horizontell/vertikalt leder till vinst.
+- För tydligare beskrivning, kika på [regler]()
 
-*Må bäste spelare vinna!*
-
-
+### **Repository struktur**
+- Vi har tagit inspiration från olika större projekt där vi valt relevanta filer.
+- Dom vi ansåg relevanta till vårat testprojekt om Gomoku valde vi.
