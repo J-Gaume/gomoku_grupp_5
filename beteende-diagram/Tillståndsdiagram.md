@@ -33,7 +33,7 @@ stateDiagram-v2
     Slut --> [*]
 ```
 
-#### Tillståndsdiagram 2: Tillstånd gentemot GDPR
+#### Tillståndsdiagram 3: Tillstånd gentemot GDPR
 
 stateDiagram-v2
     [*] --> CookieFörfrågan : Besöker sidan
