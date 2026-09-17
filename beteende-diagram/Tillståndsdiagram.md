@@ -32,3 +32,25 @@ stateDiagram-v2
 
     Slut --> [*]
 ```
+
+#### Tillståndsdiagram 2: Tillstånd gentemot GDPR
+
+stateDiagram-v2
+    [*] --> CookieFörfrågan : Besöker sidan
+
+    CookieFörfrågan --> SamtyckeGivet : Godkänner cookies
+    CookieFörfrågan --> SamtyckeNekat : Avböjer cookies
+
+    SamtyckeGivet --> SpelDataSparas : Sparar speldata (IFK-06)
+    SamtyckeNekat --> Slut : Ingen data sparas
+
+    SpelDataSparas --> SpelKanÅterupptas : Spel kan återupptas (FK-07)
+    SpelKanÅterupptas --> Slut : Session avslutas
+
+    SpelDataSparas --> SamtyckeÅterkallat : Återkallar samtycke (IFK-09)
+    SamtyckeÅterkallat --> DataRaderad : Raderar speldata (IFK-07)
+    DataRaderad --> Slut
+
+    Slut --> [*]
+
+
