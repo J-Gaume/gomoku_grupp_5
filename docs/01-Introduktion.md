@@ -13,7 +13,7 @@
 3. Vardera spelare placerar en pjäs under sin omgång
 4. Man får ej placera en pjäs på upptagen ruta.
 5. Fem pjäser i rad, diagonellt/horizontell/vertikalt leder till vinst.
-```html
+
 <svg width="680" height="680" viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg" role="img">
 <title>Gomokubräda 15x15</title>
 <desc>En gomokubräda i trä med 15x15 skärningspunkter, med några svarta och vita spelpjäser placerade nära mitten.</desc>
@@ -51,7 +51,7 @@
 <circle cx="419.7" cy="419.7" r="5" fill="#ffffff" opacity="0.7"/>
 </g>
 </svg>
-```
+
 ### **Repository struktur**
 - Vi har tagit inspiration från olika större projekt där vi valt relevanta filer.
 - Dom vi ansåg relevanta till vårat testprojekt om Gomoku valde vi.
