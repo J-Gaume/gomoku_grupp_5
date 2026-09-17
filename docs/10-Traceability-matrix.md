@@ -7,22 +7,21 @@
 | FK-01 | Starta spel | UC-01 |
 | FK-02 | Placera sten | UC-02 |
 | FK-03 | Avsluta parti | UC-03 |
-| FK-04 | Spela ranked | UC-21
+| FK-10 | Spela ranked | UC-21 |
 
 ### Konto/sociala krav
 | *FK-ID | Krav | Tillhörande UC* |
 |---|---|---|
 | FK-04 | Bjud in vän | UC-04 |
 | FK-05 | Inbjudan kan accepteras | UC-05 |
-| FK-06 | Registrera användare | UC-09 |
+| FK-09 | Registrera användare | UC-09 |
 | FK-07 | Logga in användare | UC-10 |
 
 ### Div. Inställning
 | *FK-ID | Krav | Tillhörande UC* |
 |---|---|---|
 | FK-08 | Visa spelplan | UC-03 |
-| FK-09 | Placera markering | UC-04 |
-| FK-10 | Visa resultat | UC-05 |
+| FK-06 | Resultat uträknas korrekt| UC-06 |
 
 
 # Icke-Funktionella krav
