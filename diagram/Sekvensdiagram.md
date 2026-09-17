@@ -21,3 +21,26 @@ sequenceDiagram
     end
 ```
 
+#### Sekvensdiagram 2: Bjud in vän
+- Följande diagram visar systemts flöde för en spelare att bjuda in en vän(motståndare).
+- Diagram berör UC-01(Starta parti), samt UC-04(Bjud in vän).
+```mermaid
+sequenceDiagram
+    participant Spelare
+    participant Server
+    participant Vän
+
+    Spelare->>Server: Bjuder in vän (UC-04)
+    Server-->>Vän: Skickar inbjudan
+
+    alt Vän accepterar
+        Vän->>Server: Accepterar inbjudan
+        Server->>Server: Skapar parti (UC-01)
+        Server-->>Spelare: Parti startat
+        Server-->>Vän: Parti startat
+    else Vän avböjer
+        Vän->>Server: Avböjer inbjudan
+        Server-->>Spelare: Inbjudan avböjd
+    end
+```
+
