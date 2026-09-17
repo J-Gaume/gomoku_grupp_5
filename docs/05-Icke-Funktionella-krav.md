@@ -11,3 +11,4 @@
 | IFK-07 | Spelare kan radera all data kopplad till sitt konto |
 | IFK-08 | Data följer GDPR's portabilitet och format krav |
 | IFK-09 | Spelare kan återkalla samtycke |
+| IFK-10 | Ranked poäng tilldelas korrekt |
