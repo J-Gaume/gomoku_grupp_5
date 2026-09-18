@@ -17,11 +17,12 @@
 - Spelare gör val av ruta där sten ska placeras
 
 ##### Mainflow 
-1. Spelare klickar på ruta
+1. Spelare klickar på en giltig ruta
 2. Stenen placeras på vald ruta
 
 ##### Postconditions
 - Stenen placerades korrekt på vald ruta
+- Spelarens tur är över
 
 
 ##### Alternative flow 01 - Fel ruta
